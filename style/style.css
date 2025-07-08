@@ -1,0 +1,86 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #990000;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 4px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+footer {
+    font-size: 0.9rem;
+    border-top: 2px solid #ffcc00;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.bio, .imagen {
+    flex: 1;
+    margin: 1rem;
+}
+
+.bio h2 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #990000;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #ffcc00;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.technologium {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  border: 2px solid #990000;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px #ffcc00;
+  animation: pulseBinaria 2.5s infinite;
+}
+
+.technologium h2 {
+  color: #ffcc00;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.technologium p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Animación estilo pulso binario */
+@keyframes pulseBinaria {
+  0% { box-shadow: 0 0 8px #990000; }
+  50% { box-shadow: 0 0 20px #ffcc00; }
+  100% { box-shadow: 0 0 8px #990000; }
+}
